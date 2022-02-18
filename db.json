@@ -1,0 +1,29 @@
+{
+  "contacts": [
+    {
+      "id": "1",
+      "name": "aaa",
+      "phone": "22845454554",
+      "email": "228@mail.ru"
+    },
+    {
+      "name": "sasha228",
+      "email": "228@mail.ru",
+      "phone": "2288786856453",
+      "id": "YuGNCY9"
+    },
+    {
+      "name": "asdasdasd",
+      "email": "123@yandex.ru",
+      "phone": "123123123123",
+      "id": "2bNSDfv"
+    }
+  ],
+  "users": [
+    {
+      "email": "aaa@mail.com",
+      "password": "$2a$10$HWz/jesBVAylduv/eo6Pc.rPsQnkxFM7E6ENEiffEjau4KFta9p6i",
+      "id": 1
+    }
+  ]
+}
