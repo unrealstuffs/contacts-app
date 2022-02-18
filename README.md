@@ -11,4 +11,5 @@ run this command to launch the application with json-server:
 ## User data
 
 email: aaa@mail.ru
+
 password: 1234
