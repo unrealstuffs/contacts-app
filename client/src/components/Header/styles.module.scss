@@ -1,0 +1,13 @@
+.header {
+	@apply bg-slate-900/75 flex backdrop-blur border-slate-50/[0.06] justify-between px-8 py-3;
+}
+
+.logo {
+	@apply font-bold text-white cursor-default;
+}
+
+.actions {
+	a {
+		@apply text-white transition-colors duration-200 hover:text-blue-400;
+	}
+}

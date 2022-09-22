@@ -1,0 +1,20 @@
+{
+	"name": "contacts-app",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"server": "json-server db.json -m ./node_modules/json-server-auth --port 3001",
+		"client": "npm start --prefix client",
+		"dev": "concurrently \"npm run server\" \"npm run client\""
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"json-server-auth": "^2.1.0"
+	},
+	"dependencies": {
+		"concurrently": "^7.4.0"
+	}
+}

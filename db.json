@@ -1,0 +1,31 @@
+{
+  "users": [
+    {
+      "email": "test@test.ru",
+      "password": "$2a$10$uVgKwpTxBD3p9sTojamBF.lvTdpW.nVL30lVxHX0SZTv.Ez8RlNEi",
+      "id": 1
+    }
+  ],
+  "contacts": [
+    {
+      "name": "22123",
+      "phone": "2211",
+      "id": 4
+    },
+    {
+      "name": "21sfdd",
+      "phone": "11",
+      "id": 8
+    },
+    {
+      "name": "Sasha",
+      "phone": "22866",
+      "id": 9
+    },
+    {
+      "name": "Sasha",
+      "phone": "123",
+      "id": 10
+    }
+  ]
+}

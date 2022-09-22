@@ -1,0 +1,40 @@
+.contacts {
+	@apply mt-5 grid grid-cols-2 sm:grid-cols-3 gap-5;
+}
+
+.contact {
+	@apply bg-slate-800 shadow-lg rounded-xl ring-inset;
+}
+
+.contactBody {
+	@apply flex gap-x-3 items-center p-4;
+}
+
+.contactAvatar {
+	@apply bg-slate-600 rounded-full p-2 text-slate-300 w-10 h-10 text-center;
+}
+
+.contactInfo {
+	h3 {
+		@apply font-bold text-slate-100 text-lg;
+	}
+	span {
+		@apply text-slate-400 text-sm;
+	}
+}
+
+.contactActions {
+	@apply grid grid-cols-2 mt-2 border-t border-slate-700;
+
+	button {
+		@apply flex justify-center p-4 hover:bg-slate-600 text-slate-300 hover:text-sky-400 transition-colors;
+	}
+
+	button:not(:last-child) {
+		@apply border-r border-slate-700;
+	}
+}
+
+.noData {
+	@apply text-center text-lg text-slate-400 col-span-3;
+}
